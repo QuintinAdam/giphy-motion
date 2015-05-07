@@ -1,25 +1,28 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rake"
-gem "redpotion"
-gem "cdq" # Core Data
-gem "afmotion" # Networking
+gem 'rake'
+gem 'redpotion'
+gem 'cdq' # Core Data
+gem 'afmotion' # Networking
 
 # Debugging tools
-gem "newclear" # Completely wipe out the simulator and rebuild
+gem 'newclear' # Completely wipe out the simulator and rebuild
 
 # Optional
 
-# gem "ProMotion-form"
-# gem "ProMotion-push", "~> 0.2" # Push Notifications
-# gem "ProMotion-map", "~> 0.3"  # PM::MapScreen
-# gem "ProMotion-iap" # PM In-app purchases
-# gem "ProMotion-menu" # PM Side menu
+# gem 'ProMotion-form'
+# gem 'ProMotion-push', '~> 0.2' # Push Notifications
+# gem 'ProMotion-map', '~> 0.3'  # PM::MapScreen
+# gem 'ProMotion-iap' # PM In-app purchases
+# gem 'ProMotion-menu' # PM Side menu
 
-# gem "bubble-wrap"
+# gem 'bubble-wrap'
 
 # Screenshot acceptance comparison tool
-# gem "motion-juxtapose", "~> 0.1"
+# gem 'motion-juxtapose', '~> 0.1'
 
 # Easy HUD with SVProgressHUD
 # gem 'motion-blitz'
+
+gem 'motion-config-vars'
+gem 'motion_print'

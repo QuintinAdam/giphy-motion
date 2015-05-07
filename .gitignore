@@ -19,3 +19,6 @@ nbproject
 .dat*.*
 *.swp
 *.orig
+
+# Ignore motion-config-vars config file
+resources/app.yml
